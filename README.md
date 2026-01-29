@@ -6,6 +6,10 @@ Pure PHP backend • MySQL • aggressive vanilla-JS SPA • Workerman websocket
 
 ---
 
+![Competitions](screenshots/competitions.PNG)
+
+---
+
 ## What this repo is
 A lightweight, community-first tournament platform:
 - single-elimination brackets
