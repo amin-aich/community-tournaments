@@ -20,7 +20,7 @@ A lightweight, community-first tournament platform:
 - Vanilla JavaScript SPA (frontend)
 - Workerman (WebSocket chat)
 
-## Rewards (BNB / BSC)
+## Rewards (BNB / BSC) - [Under Developement]
 - Players can withdraw winnings to their own BSC wallet addresses; payouts are recorded on-chain.  
 - Each user may have an on-chain wallet address stored (optional). Platform keeps payout transaction logs for auditing.  
 - This feature is toggleable — can be enabled for events that have sponsored or donated prizes, or disabled if you prefer not to use on-chain payouts.  
