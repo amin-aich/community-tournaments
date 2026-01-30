@@ -1,8 +1,7 @@
 # community-tournaments
 
 Community-run single-elimination tournament platform built by players for players.  
-No corporate bullshit. No paywalls.  
-Pure PHP backend • MySQL • aggressive vanilla-JS SPA • Workerman websocket for live chat and notifications • BSC blockchain integration in developement.
+No corporate bullshit. No paywalls.
 
 ---
 
@@ -15,18 +14,19 @@ A lightweight, community-first tournament platform:
 - single-elimination brackets
 - participant check-in & match reporting
 - per-tournament live chat and notifications via Workerman 
-- pure PHP backend, MySQL, minimal dependencies, and a fast vanilla-JS SPA frontend
 
 ## Stack
 - PHP (backend)
 - MySQL (database)
 - Vanilla JavaScript SPA (frontend)
-- Workerman (WebSocket chat)
+- Workerman (WebSocket for live chat and notifications)
 
 ## Rewards (BNB / BSC) - [Under Developement]
-- Players can withdraw winnings to their own BSC wallet addresses; payouts are recorded on-chain.  
-- Each user may have an on-chain wallet address stored (optional). Platform keeps payout transaction logs for auditing.  
-- This feature is toggleable — can be enabled for events that have sponsored or donated prizes, or disabled if you prefer not to use on-chain payouts.  
+- The rewards system is currently being expanded to bridge the platform with the Binance Smart Chain.
+- Integrated BNB Wallet: An integrated on-chain BSC wallet is actively under development to allow for seamless native interactions.
+- Direct Withdrawals: Once finalized, players can withdraw winnings directly to their BSC wallet addresses.
+- On-Chain Records: All payouts are recorded directly on the blockchain to ensure a permanent, verifiable history of transactions.
+- Wallet Storage: Users have the option to store a primary on-chain address within their profile for faster payouts.
 
 ## Contributing
 PRs welcome. Keep changes focused and don’t commit secrets.
